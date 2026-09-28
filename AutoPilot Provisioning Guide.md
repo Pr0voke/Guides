@@ -2,7 +2,7 @@
 
 ## Gather Hash
 
-First you'll need to make sure the computer is connected to the internet, either by going through enough setup steps to select a network, pluggin in an ethernet cable, or opening settings and using the GUI.
+First you'll need to make sure the computer is connected to the internet, either by going through enough setup steps to select a network, plugging in an ethernet cable, or opening settings and using the GUI.
 
 Once Connected you'll need to plug in a USB Drive containing the *GetHash.ps1* script.
 
@@ -211,12 +211,12 @@ Write-Ok "Done. Reboot the PC, then press the Windows key 5 times at the sign-in
 
 <img alt="3" src="https://github.com/user-attachments/assets/6ebccb3b-8333-4119-b037-36430f12d495" />
 
-4. Once you've verified the Hash is upload in intune restart the computer 
+4. Verify the Hash has been uploaded and the group was assigned 
 >It will show up in Intune Admin>Devices>Enrollment>Windows AutoPilot>Devices
 
 <img alt="4" src="https://github.com/user-attachments/assets/7216fa3e-4f10-4b15-aabd-60c9b5514ad1" />
 
-5. In the CMD powershell window type **shutdown /r /t 0**
+5. Now restart the device by typing **shutdown /r /t 0** in the open CMD window.
 
 <img alt="5" src="https://github.com/user-attachments/assets/de27694f-a9a6-4980-86d1-34329722620a" />
 
