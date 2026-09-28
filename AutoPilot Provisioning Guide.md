@@ -8,6 +8,7 @@ Once Connected you'll need to plug in a USB Drive containing the *GetHash.ps1* s
 
 1. Open a CMD window and type *powershell*
 
+<img width="1920" height="1200" alt="1" src="https://github.com/user-attachments/assets/8f8a3761-536d-4815-9b95-02caad82bc27" />
 ![CMD Powershell](1.png)
 
 2. Run the *GetHash.ps1* script by entering **D:\GetHash.ps1** in the powershell window
