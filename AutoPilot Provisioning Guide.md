@@ -8,7 +8,7 @@ Once Connected you'll need to plug in a USB Drive containing the *GetHash.ps1* s
 
 1. Open a CMD window and type *powershell*
 
-<img width="1920" height="1200" alt="1" src="https://github.com/user-attachments/assets/8f8a3761-536d-4815-9b95-02caad82bc27" />
+<img alt="1" src="https://github.com/user-attachments/assets/8f8a3761-536d-4815-9b95-02caad82bc27" />
 
 2. Run the *GetHash.ps1* script by entering **D:\GetHash.ps1** in the powershell window
 <details>
@@ -205,51 +205,51 @@ Write-Ok "Done. Reboot the PC, then press the Windows key 5 times at the sign-in
 
 </details>
 
-<img width="1920" height="1200" alt="2" src="https://github.com/user-attachments/assets/b855e537-1d2a-4fa7-882c-3f230791509d" />
+<img alt="2" src="https://github.com/user-attachments/assets/b855e537-1d2a-4fa7-882c-3f230791509d" />
 
 3. Wait for this to finish and it will upload the hash automatically and assign the group. 
 
-<img width="1920" height="1200" alt="3" src="https://github.com/user-attachments/assets/6ebccb3b-8333-4119-b037-36430f12d495" />
+<img alt="3" src="https://github.com/user-attachments/assets/6ebccb3b-8333-4119-b037-36430f12d495" />
 
 4. Once you've verified the Hash is upload in intune restart the computer 
 >It will show up in Intune Admin>Devices>Enrollment>Windows AutoPilot>Devices
 
-<img width="1904" height="1016" alt="4" src="https://github.com/user-attachments/assets/7216fa3e-4f10-4b15-aabd-60c9b5514ad1" />
+<img alt="4" src="https://github.com/user-attachments/assets/7216fa3e-4f10-4b15-aabd-60c9b5514ad1" />
 
 5. In the CMD powershell window type **shutdown /r /t 0**
 
-<img width="1920" height="1200" alt="5" src="https://github.com/user-attachments/assets/de27694f-a9a6-4980-86d1-34329722620a" />
+<img alt="5" src="https://github.com/user-attachments/assets/de27694f-a9a6-4980-86d1-34329722620a" />
 
 ## Run Autopilot Provisioning
 
 1. Once the computer reboots press the **Windows key 5 times** to enter the OOBE Autopilot provisioning screen.
 
-<img width="1920" height="1200" alt="6" src="https://github.com/user-attachments/assets/cd8cf46c-ae9f-4d96-a5d3-da1fe8cdc56e" />
+<img alt="6" src="https://github.com/user-attachments/assets/cd8cf46c-ae9f-4d96-a5d3-da1fe8cdc56e" />
 
 2. On this screen select **Pre-provision with Windows Autopilot** and hit next.
 
-<img width="1920" height="1200" alt="7" src="https://github.com/user-attachments/assets/67edfdf0-3551-4ef3-9ea6-0846c978ea7c" />
+<img alt="7" src="https://github.com/user-attachments/assets/67edfdf0-3551-4ef3-9ea6-0846c978ea7c" />
 
 3. This will run for about 30 min and install the required applications and 
 
-<img width="1920" height="1200" alt="8" src="https://github.com/user-attachments/assets/b3705b86-bc39-413b-8c97-3bc38c4fbca9" />
+<img alt="8" src="https://github.com/user-attachments/assets/b3705b86-bc39-413b-8c97-3bc38c4fbca9" />
 
 4. Once it's finished select **Reseal** and it will shut the computer down and you're good to assign a user or give this to the user to sign in as normal
 
-<img width="1920" height="1200" alt="9" src="https://github.com/user-attachments/assets/4a2a0f17-b429-41a1-8996-5441b7c4f34e" />
+<img alt="9" src="https://github.com/user-attachments/assets/4a2a0f17-b429-41a1-8996-5441b7c4f34e" />
 
 ## Reset Device after Termination or reassignment
 
 1. Find the device in Intune.
 
-<img width="1904" height="1016" alt="10" src="https://github.com/user-attachments/assets/97216a1e-733f-4653-b209-65db64416f97" />
+<img alt="10" src="https://github.com/user-attachments/assets/97216a1e-733f-4653-b209-65db64416f97" />
 
 2. Select **Remove data>Autopilot Reset** Check the box and select **Action**
 > This process will take anywhere from an hour to 2 hours to complete and requires the device to be connected to the internet. The reset is triggered by a restart if not left alone for it to automatically start after 45 min.
 
-<img width="1904" height="1016" alt="11" src="https://github.com/user-attachments/assets/2112eb78-3244-421e-86f9-cbd38f371b11" />
+<img alt="11" src="https://github.com/user-attachments/assets/2112eb78-3244-421e-86f9-cbd38f371b11" />
 
-<img width="1904" height="1016" alt="12" src="https://github.com/user-attachments/assets/bf40ce16-11ec-41b3-aad3-b16fdab76d02" />
+<img alt="12" src="https://github.com/user-attachments/assets/bf40ce16-11ec-41b3-aad3-b16fdab76d02" />
 
 ## Alternate Hash script to CSV
 > Requires manual upload and group assignment to the Enrollment>Devices
