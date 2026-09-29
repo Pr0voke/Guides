@@ -209,7 +209,7 @@ Write-Ok "Done. Reboot the PC, then press the Windows key 5 times at the sign-in
 
 3. Wait for this to finish and it will upload the hash automatically and assign the group. 
 
-<img width="1915" height="1197" alt="3 1" src="https://github.com/user-attachments/assets/80167355-d3b0-41f6-aea5-6f5274907ae3" />
+<img alt="3 1" src="https://github.com/user-attachments/assets/80167355-d3b0-41f6-aea5-6f5274907ae3" />
 
 4. Verify the Hash has been uploaded and the group was assigned 
 >It will show up in Intune Admin>Devices>Enrollment>Windows AutoPilot>Devices
